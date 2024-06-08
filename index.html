@@ -1,65 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <title>portfolio</title>
-  </head>
-  <body>
-    <!--  header part started -->
-    <header class="header">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+  <title>portfolio</title>
+</head>
+
+<body>
+  <!--  header part started -->
+  <header class="header">
+    <div class="container">
+      <div class="wrapper">
+        <a class="logo" href="#"> <span> Ministry </span> IA </a>
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Passions</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <span>
+                <a href="#" class="nav__link nav__link--last">Contact Me</a>
+              </span>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M1.5625 21.875H23.4375C24.3 21.875 25 21.175 25 20.3125C25 19.45 24.3 18.75 23.4375 18.75H1.5625C0.7 18.75 0 19.45 0 20.3125C0 21.175 0.7 21.875 1.5625 21.875ZM1.5625 14.0625H23.4375C24.3 14.0625 25 13.3625 25 12.5C25 11.6375 24.3 10.9375 23.4375 10.9375H1.5625C0.7 10.9375 0 11.6375 0 12.5C0 13.3625 0.7 14.0625 1.5625 14.0625ZM1.5625 6.25H23.4375C24.3 6.25 25 5.55 25 4.6875C25 3.825 24.3 3.125 23.4375 3.125H1.5625C0.7 3.125 0 3.825 0 4.6875C0 5.55 0.7 6.25 1.5625 6.25Z"
+              fill="black" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <!--  header part finished -->
+  <!--  main started -->
+  <main>
+    <section class="about">
       <div class="container">
         <div class="wrapper">
-          <a class="logo" href="#"> <span> Ministry </span> IA </a>
-          <nav class="header__nav nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="#" class="nav__link">About</a>
-              </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link">Passions</a>
-              </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link">Portfolio</a>
-              </li>
-              <li class="nav__item">
-                <span>
-                  <a href="#" class="nav__link nav__link--last">Contact Me</a>
+          <ul class="about__list">
+            <li class="about__item">
+              <div class="about__textbox ">
+                <span class="about__hi">
+                  HI !
                 </span>
-              </li>
-            </ul>
-          </nav>
-          <button class="header__menu">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="25"
-              height="25"
-              viewBox="0 0 25 25"
-              fill="none"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M1.5625 21.875H23.4375C24.3 21.875 25 21.175 25 20.3125C25 19.45 24.3 18.75 23.4375 18.75H1.5625C0.7 18.75 0 19.45 0 20.3125C0 21.175 0.7 21.875 1.5625 21.875ZM1.5625 14.0625H23.4375C24.3 14.0625 25 13.3625 25 12.5C25 11.6375 24.3 10.9375 23.4375 10.9375H1.5625C0.7 10.9375 0 11.6375 0 12.5C0 13.3625 0.7 14.0625 1.5625 14.0625ZM1.5625 6.25H23.4375C24.3 6.25 25 5.55 25 4.6875C25 3.825 24.3 3.125 23.4375 3.125H1.5625C0.7 3.125 0 3.825 0 4.6875C0 5.55 0.7 6.25 1.5625 6.25Z"
-                fill="black"
-              />
-            </svg>
-          </button>
+                <strong class="about__title">
+                  I’m Muhamad Raul.
+                  a Front-End Developer
+                </strong>
+                <p class="about__desc">
+                  Front-End devel oper based in Bekasi, Indonesian
+                  I’am coding with a clean and beautiful problem
+                  solving in mind.
+                </p>
+              </div>
+            </li>
+            <li class="about__item">
+              <img class="about__image" src="./images/person.svg" width="501" height="467" alt="person image">
+            </li>
+          </ul>
         </div>
       </div>
-    </header>
-    <!--  header part finished -->
-    <!--  main started -->
-    <main>
-      <section></section>
-    </main>
-    <!--  main finished -->
-  </body>
+    </section>
+  </main>
+  <!--  main finished -->
+</body>
+
 </html>

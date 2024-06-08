@@ -101,6 +101,28 @@ body {
 }
 /*  about part style  */
 
+.about__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.about__item {
+}
+.about__textbox {
+}
+.about__hi {
+}
+.about__title {
+}
+.about__desc {
+}
+.about__image {
+}
+
+
 /*  header for responsive style */
 @media only screen and (min-width: 320px) {
   .header {
